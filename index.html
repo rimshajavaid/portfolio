@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Swiper Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Miniver&family=Montserrat:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Header Navbar -->
+    <header>
+
+        <!-- Navbar -->
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">Rimsha<span>.</span></h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-btn" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <button id="menu-open-btn" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Hi, I'm Rimsha!</h2>
+                    <h3 class="subtitle">Frontend Developer</h3>
+                    <p class="description">I create visually stunning and
+                        responsive websites using modern web
+                        technologies.</p>
+
+                    <div class="buttons">
+                        <a href="#projects" class="button view-work">View Work</a>
+                        <a href="#contact" class="button contact-me">Contact me</a>
+                    </div>
+                </div>
+                <div class="hero-img-wrapper">
+                    <img src="assets/hero-img.png" alt="Hero Image" class="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-details">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="text">I’m Rimsha Javed, a front-end developer passionate for crafting responsive, pixel-perfect, and user-centric web experiences. I
+                        specialize in turning designs into fast, functional, and accessible interfaces using modern
+                        technologies like React, JavaScript, and Tailwind CSS. Always eager to take on new challenges — let’s
+                        collaborate and build something amazing!</p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="skills-details">
+                    <div class="education-section">
+                        <h3>Education</h3>
+                        <p>Bachelors of Science in Information Technology</p>
+                        <p>2020 - 2024</p>
+                    </div>
+                    <div class="skills-section">
+                        <h3>Skills</h3>
+                        <div class="frontend-skills">
+                            <p>React js, JavaScript, Tailwind CSS, HTML5, CSS3, Bootstrap, jQuery, Git, Github</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="service-section" id="services">
+            <h2 class="section-title">Services</h2>
+            <div class="section-content">
+                <ul class="service-list">
+                        <li class="service-card">
+                            <img src="assets/icons8-web-development-50.png" alt="" class="service-img">
+                            <h3 class="name">Web Development</h3>
+                            <p class="text">Building interactive user interfaces with modern frameworks for fast,
+                                scalable, and engaging websites.</p>
+                        </li>
+                        <li class="service-card">
+                            <img src="assets/icons8-responsive-design-50.png" alt="" class="service-img">
+                            <h3 class="name">Responsive Design</h3>
+                            <p class="text">Creating adaptable layouts to ensure optimal viewing on desktops,
+                                tablets, and mobile devices.</p>
+                        </li>
+                        <li class="service-card">
+                            <img src="assets/icons8-web-design-50.png" alt="" class="service-img">
+                            <h3 class="name">UI/UX</h3>
+                            <p class="text">Translating design mockups into fully functional websites with precise
+                                attention for a seamless user experience.</p>
+                        </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Project Section -->
+        <section class="project-section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="assets/web-development.png" alt="Web Development" class="gallery-img">
+                        <a href="http://techvio-it.vercel.app/" target="_blank"><span class="overlay-text">Web Development</span></a>
+                    </li>
+                    <li class="gallery-item">
+                        <img src="assets/web.png" alt="Figma to HTML" class="gallery-img">
+                        <a href="https://rimshajavaid.github.io/digitalagency/" target="_blank"><span class="overlay-text">Figma to HTML</span></a>
+                    </li>
+                    <li class="gallery-item">
+                        <img src="assets/app.png" alt="Graphic Design" class="gallery-img">
+                        <a href="https://trafalgar-healthcare-gamma.vercel.app/" target="_blank"><span class="overlay-text">Web Development</span></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section class="testimonial-section" id="testimonials">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonial-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="assets/user-1.png" alt="" class="user-img">
+                                <h3 class="name">John Doe</h3>
+                                <i class="feedback">" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae.
+                                    "</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="assets/user-2.png" alt="" class="user-img">
+                                <h3 class="name">John Doe</h3>
+                                <i class="feedback">" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae.
+                                    "</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="assets/user-3.png" alt="" class="user-img">
+                                <h3 class="name">John Doe</h3>
+                                <i class="feedback">" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae.
+                                    "</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="assets/user-1.png" alt="" class="user-img">
+                                <h3 class="name">John Doe</h3>
+                                <i class="feedback">" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae.
+                                    "</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="assets/user-2.png" alt="" class="user-img">
+                                <h3 class="name">John Doe</h3>
+                                <i class="feedback">" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae.
+                                    "</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>123 Street No. City, PK 31100</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>info@mail.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(123) 456-78989</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.website.com</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your name" class="form-input" required>
+                    <input type="email" placeholder="Your email" class="form-input" required>
+                    <textarea placeholder="Your message" class="form-input" required></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2025 Rimsha Javed</p>
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Go to Top Button -->
+    <button onclick="scrollToTop()" id="goTopBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS Link -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

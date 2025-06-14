@@ -36,8 +36,3 @@ A personal portfolio crafted to showcase skills and projects.
    cd portfolio
 
 ---
-
-## 🧑‍💻 Author
-
-**Rimsha Javed**  
-© 2025
